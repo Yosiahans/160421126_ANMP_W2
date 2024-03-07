@@ -41,6 +41,7 @@ class ResultFragment : Fragment() {
         binding.btnBackToMainScreen.setOnClickListener{
             val action = ResultFragmentDirections.actionResultFragmentToMainFragment(point=0)
             Navigation.findNavController(it).navigate(action)
+            //test
         }
     }
 
